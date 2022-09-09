@@ -1,0 +1,41 @@
+.my-navbar{
+    background: #ffffff;
+    height: 4rem;
+    width: 100vw;
+    padding: 0px 20px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    z-index: 100;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 2rem;
+}
+.brand-logo{
+    flex: 2;
+}
+.nav-menus{
+    flex: 10;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.nav-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items{
+    list-style: none;
+}
+
+.menu-items-link{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+.menu-items-link:hover{
+    color: #474545;
+    transition: all ease-in-out 1s;
+}
